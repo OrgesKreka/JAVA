@@ -1,0 +1,14 @@
+1 vertikal Permitted ALLOWED 7
+2 vertikal Trimmed,peeled PRED 4
+3 vertikal Et_cetera ANDSOO 6
+4 vertikal I've_found_it! EUREKA 6
+5 vertikal Military_rank MAJOR 5
+6 vertikal First INITIAL 7
+7 vertikal Back_of_a_boat STERN 5
+13 vertikal New_England_State VERMONT 7
+15 vertikal Beguiled SEDUCE 7
+16 vertikal Discern RESCIND 7
+17 vertikal Embrance CUDDLE 6
+18 vertikal Penne,rigatoni PASTA 5
+19 vertikal Contented HAPPY 5
+21 vertikal Mistake ERROR 5
