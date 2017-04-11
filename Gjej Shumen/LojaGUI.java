@@ -51,7 +51,7 @@ public class LojaGUI extends JFrame
 	 ///Kontruktori
 	public LojaGUI( String emri )
 	{
-		super( "Gjej Shumën" ); 
+		super( "Gjej ShumÃ«n" ); 
 		this.setLayout( new BorderLayout () );
 		
 		lojtari = new Lojtar ();
@@ -66,7 +66,7 @@ public class LojaGUI extends JFrame
 		n2 = 1 + r.nextInt( VESHTIRESIA );
 		
 		
-		JLabel titulli = new JLabel( "Gjej Shumën v1.0.0", SwingConstants.CENTER );
+		JLabel titulli = new JLabel( "Gjej ShumÃ«n v1.0.0", SwingConstants.CENTER );
 		titulli.setFont( new Font( "Courier New", Font.BOLD, 26 ) );
 		titulli.setBorder( new TitledBorder( new EtchedBorder (), "" ) );
 		this.add( titulli, BorderLayout.NORTH );
@@ -202,6 +202,8 @@ public class LojaGUI extends JFrame
 			catch( Exception exc )
 			{   
 				mesazhi.setText( "Input i G A B U A R " );
+				mesazhi.setFont( new Font( "Consolas", Font.BOLD, 36 ) );
+				return; /// te shfaqet gabimi
 			}
 			
 			
@@ -248,6 +250,7 @@ public class LojaGUI extends JFrame
 		{
 			VESHTIRESIA = 10;
 			lojtari.vendosNivelin( 0 );
+			mesazhi.setText( "" );
 			reset( lojtari.merrEmrin (), 0, lojtari.merrPiket ());
 			LojaGUI.this.luaj ();
 			
